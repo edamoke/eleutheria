@@ -1,10 +1,10 @@
-require("@nomicfoundation/hardhat-toolbox");
-require("dotenv").config();
+import "@nomicfoundation/hardhat-toolbox";
+import "dotenv/config";
 
 const { PRIVATE_KEY, INFURA_API_KEY, ETHERSCAN_API_KEY } = process.env;
 
 /** @type import("hardhat/config").HardhatUserConfig */
-module.exports = {
+export default {
   solidity: "0.8.24",
   networks: {
     hardhat: {
