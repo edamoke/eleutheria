@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Hardhat build artifacts
+contracts/artifacts/
+contracts/cache/
+
+# TypeScript/Build outputs
+dist/
+**/dist/
+.next/
+**/ .next/
+out/
+**/out/
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
